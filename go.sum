@@ -1,2 +1,6 @@
 github.com/go-chi/chi/v5 v5.1.0 h1:acVI1TYaD+hhedDJ3r54HyA6sExp3HfXq7QWEEY/xMw=
 github.com/go-chi/chi/v5 v5.1.0/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
+github.com/thesp1der/httpclient v0.0.0-20190811020906-032fd23ddf4f h1:M3o+Bt+ytTMwCjKlwoLdbV6EKxEd6NySJ0XtJx9d6ws=
+github.com/thesp1der/httpclient v0.0.0-20190811020906-032fd23ddf4f/go.mod h1:l5zwqTV9AIYMpqsz/J+JTrA0kQYhc71nWA+gN0Edo98=
+golang.org/x/sys v0.22.0 h1:RI27ohtqKCnwULzJLqkv897zojh5/DwS/ENaMzUOaWI=
+golang.org/x/sys v0.22.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=

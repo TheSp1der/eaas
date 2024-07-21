@@ -13,6 +13,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
+	"github.com/thesp1der/eaas/internal/common"
 )
 
 type endpoint struct{ log *slog.Logger }
@@ -71,11 +72,7 @@ func (endpoint *endpoint) entropy(w http.ResponseWriter, r *http.Request) {
 	httpAccessLog(endpoint.log, r)
 
 	var (
-		output struct {
-			Error    bool   `json:"error"`
-			ErrorMsg string `json:"error-message,omitempty"`
-			Data     string `json:"data-base64,omitempty"`
-		}
+		output           common.DataStruct
 		ServerStatusCode int = http.StatusOK
 	)
 
